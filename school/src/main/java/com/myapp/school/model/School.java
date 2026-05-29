@@ -17,5 +17,7 @@ public class School {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Long id;
+    private String schoolName;
+    private String email;
 
 }
